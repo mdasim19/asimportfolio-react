@@ -28,7 +28,7 @@ export default function Home() {
                 animationDelay: "1s",
               }}
             >
-              Hi!
+              Hello
             </h1>
             <h2
               style={{
@@ -38,7 +38,7 @@ export default function Home() {
                 animationDelay: "2s",
               }}
             >
-              I'm Pugalendhi
+              I'm Mohamed Asim
             </h2>
             <h3
               style={{
@@ -62,7 +62,7 @@ export default function Home() {
                 animationDelay: "4s",
               }}
             >
-              About Me!
+              About Me
             </Button>
           </Col>
         </Row>

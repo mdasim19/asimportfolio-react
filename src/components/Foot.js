@@ -30,7 +30,7 @@ export default function Foot() {
               </Col>
               <Col lg={1} md={2} sm={2} xs={2} className="text-center">
                 <a
-                  href="https://www.instagram.com/pugal.gamer?utm_source=qr&igshid=M2Zhend4MnUyOGRh"
+                  href="https://www.instagram.com/_md.asim?igsh=bnZuMng4YjV1bmhs"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -43,7 +43,7 @@ export default function Foot() {
               </Col>
               <Col lg={1} md={2} sm={2} xs={2} className="text-center">
                 <a
-                  href="https://github.com/PugalGamer"
+                  href="https://github.com/mdasim19"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -56,7 +56,7 @@ export default function Foot() {
               </Col>
               <Col lg={1} md={2} sm={2} xs={2} className="text-center">
                 <a
-                  href="https://www.linkedin.com/in/pugalendhi-s-9a5229280?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app&original_referer=https%3A%2F%2Fwww.google.com%2F"
+                  href="https://www.linkedin.com/in/mohamed-asim-a3b3931b4"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -80,15 +80,15 @@ export default function Foot() {
         <Row className="justify-content-center">
           <Col className="text-center " lg={6} md={6} sm={12} xs={12}>
             <p>
-              9/15 KattaBomman Street, Jeeva Nagar,
-              <br /> Trichy-620008.
+              No: 113, Main road, Melkavarapet, Panruti.
+              <br /> Cuddalore-607112.
             </p>
           </Col>
           <Col className="" lg={6} md={6} sm={12} xs={12}>
             <p>
-              Ph:7871533595
+              Phone:9600275979
               <br />
-              pugalp702@gmail.com
+              mohamedasim.prt@gmail.com
             </p>
           </Col>
         </Row>

@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { Container, Nav, Navbar } from "react-bootstrap";
-import pugal from "../assets/pugal.jfif";
+import asim from "../assets/icon.jpg";
 
 export default function Head() {
   const [activeLink, setActiveLink] = useState("home");
@@ -10,12 +10,12 @@ export default function Head() {
   };
 
   return (
-    <Navbar bg="dark" variant="dark" fixed="top" expand="md" >
+    <Navbar bg="dark" variant="dark" fixed="top" expand="md">
       <Container fluid>
         <Navbar.Brand href="/">
           <h3>
-            <img alt="" src={pugal} width={50} className="rounded-circle" />{" "}
-            Pugal
+            <img alt="" src={asim} width={50} className="rounded-circle" /> MD
+            ASIM
           </h3>
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />

@@ -20,32 +20,6 @@ export default function Experience() {
         >
           <Card
             className="border-0 shadow-sm p-3 p-sm-3 p-md-3 p-lg-3"
-            style={{ backgroundColor: "#E3FDFD", height: "100%" }}
-            data-aos="flip-up"
-          >
-            <Card.Body>
-              <Card.Title className="justify-content-center d-flex text-center">
-                Software Engineer
-              </Card.Title>
-              <Card.Text style={{ textAlign: "justify" }}>
-                Presently working as a Software Engineer at
-                <strong>
-                  GRAVITYKEY TECHNOLOGIES PRIVATE LIMITED, Chennai.
-                </strong>
-                Currently involved in various projects.
-              </Card.Text>
-            </Card.Body>
-          </Card>
-        </Col>
-        <Col
-          lg={4}
-          md={6}
-          sm={12}
-          xs={12}
-          className="mb-4 px-lg-2 px-md-2 px-sm-1 px-0"
-        >
-          <Card
-            className="border-0 shadow-sm p-3 p-sm-3 p-md-3 p-lg-3"
             style={{ backgroundColor: "#DBE2EF", height: "100%" }}
             data-aos="flip-up"
           >
@@ -56,10 +30,9 @@ export default function Experience() {
               <Card.Text style={{ textAlign: "justify" }}>
                 Worked as a Junior Software Developer Intern at
                 <strong>
-                  ROCKG MICRO TECHNOLOGY (INDIA) PRIVATE LIMITED, Trichy.
+                  Rockg Micro Technology India Private Limited, Trichy.
                 </strong>
-                Completed several Proof of Concept (POC) tasks from April to
-                June.
+                Completed POC tasks from April to June.
               </Card.Text>
             </Card.Body>
           </Card>
@@ -82,8 +55,30 @@ export default function Experience() {
               </Card.Title>
               <Card.Text style={{ textAlign: "justify" }}>
                 Completed Master of Computer Applications (MCA) at
-                <strong> Bishop Heber College, Trichy.</strong> Demonstrated
-                leadership qualities as the President of the MCA department.
+                <strong> Bishop Heber College, Trichy.</strong>
+              </Card.Text>
+            </Card.Body>
+          </Card>
+        </Col>
+        <Col
+          lg={4}
+          md={6}
+          sm={12}
+          xs={12}
+          className="mb-4 px-lg-2 px-md-2 px-sm-1 px-0"
+        >
+          <Card
+            className="border-0 shadow-sm p-3 p-sm-3 p-md-3 p-lg-3"
+            style={{ backgroundColor: "#E3FDFD", height: "100%" }}
+            data-aos="flip-up"
+          >
+            <Card.Body>
+              <Card.Title className="justify-content-center d-flex text-center">
+                BCA
+              </Card.Title>
+              <Card.Text style={{ textAlign: "justify" }}>
+                Completed Bachelor of computer applications(BCA) at
+                <strong> Jamal Mohamed College, Trichy.</strong>
               </Card.Text>
             </Card.Body>
           </Card>
@@ -107,7 +102,7 @@ export default function Experience() {
               <Card.Title className="justify-content-center d-flex text-center">
                 <h5>Project 1</h5>
               </Card.Title>
-              <Card.Text style={{}}>Task Management App</Card.Text>
+              <Card.Text style={{}}> A COUNTRY GUIDE USING API</Card.Text>
             </Card.Body>
           </Card>
         </Col>
@@ -127,7 +122,7 @@ export default function Experience() {
               <Card.Title className="justify-content-center d-flex ">
                 <h5>Project 2</h5>
               </Card.Title>
-              <Card.Text>MERN CRUD APP</Card.Text>
+              <Card.Text>BOOKSTORE CRUD APP USING MERN STACK</Card.Text>
             </Card.Body>
           </Card>
         </Col>
@@ -148,7 +143,7 @@ export default function Experience() {
                 <h5>Project 3</h5>
               </Card.Title>
               <Card.Text style={{ textAlign: "justify" }}>
-                User and Admin particular pages Google Auth
+                FOOD ORDERING MANAGEMENT SYSTEM
               </Card.Text>
             </Card.Body>
           </Card>

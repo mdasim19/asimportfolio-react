@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import { Button, Col, Row } from "react-bootstrap";
-import pugal from "../assets/aboutpugal.png";
+import asim from "../assets/icon.jpg";
 import Aos from "aos";
 
 export default function About() {
@@ -13,10 +13,9 @@ export default function About() {
       <Row>
         <Col lg={6} md={12}>
           <p style={{ textAlign: "justify" }}>
-            I am Pugalendhi S, a self-confident individual with strong teamwork
-            and leadership qualities. I have a keen interest in React.js
-            development and am a solo self-learner dedicated to continuous
-            improvement.
+            I am Asim, a self-confident individual with strong teamwork and
+            leadership qualities. I have a keen interest in React.js development
+            and am a solo self-learner dedicated to continuous improvement.
             <br />
             <br />
             I possess good design skills, which allow me to create aesthetically
@@ -34,44 +33,63 @@ export default function About() {
         <Col lg={6} md={12}>
           <img
             alt="Pugalendhi"
-            src={pugal}
-            className="img-fluid rounded-circle mb-3"
+            src={asim}
+            className="img-fluid rounded-circle mb-3 p-3"
             data-aos="zoom-in"
           />
           <h4>Skills</h4>
           <Row>
             <Col lg={2} md={2} sm={3} xs={4} className="mb-2">
-              <Button variant="outline-danger" className="w-100" 
-              data-aos="flip-left">
-                JAVA
-              </Button>
-            </Col>
-            <Col lg={2} md={2} sm={3} xs={4} className="mb-2">
-              <Button variant="outline-light" className="w-100" 
-              data-aos="flip-left">
+              <Button
+                variant="outline-danger"
+                className="w-100"
+                data-aos="flip-left"
+              >
                 HTML
               </Button>
             </Col>
             <Col lg={2} md={2} sm={3} xs={4} className="mb-2">
-              <Button variant="outline-primary" className="w-100"
-              data-aos="flip-left">
+              <Button
+                variant="outline-light"
+                className="w-100"
+                data-aos="flip-left"
+              >
                 CSS
               </Button>
             </Col>
             <Col lg={2} md={2} sm={3} xs={4} className="mb-2">
-              <Button variant="outline-warning" className="w-100"
-              data-aos="flip-left">
-                Js
+              <Button
+                variant="outline-primary"
+                className="w-100"
+                data-aos="flip-left"
+              >
+                JAVA
               </Button>
             </Col>
             <Col lg={2} md={2} sm={3} xs={4} className="mb-2">
-              <Button variant="outline-info" className="w-100"
-              data-aos="flip-left">
-                React.js
+              <Button
+                variant="outline-warning"
+                className="w-100"
+                data-aos="flip-left"
+              >
+                JS6
               </Button>
             </Col>
             <Col lg={2} md={2} sm={3} xs={4} className="mb-2">
-              <Button variant="outline-success" className="w-100" data-aos="flip-left">
+              <Button
+                variant="outline-info"
+                className="w-100"
+                data-aos="flip-left"
+              >
+                REACT
+              </Button>
+            </Col>
+            <Col lg={2} md={2} sm={3} xs={4} className="mb-2">
+              <Button
+                variant="outline-success"
+                className="w-100"
+                data-aos="flip-left"
+              >
                 MERN
               </Button>
             </Col>
